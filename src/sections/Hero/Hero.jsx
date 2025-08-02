@@ -5,9 +5,13 @@ import title from "/comp.png";
 
 const Hero = () => {
   return (
-    <section className="bg-[#f9faff] flex flex-col lg:flex-row justify-between px-4 lg:px-20 py-10 lg:py-20">
+    <section className="bg-[#f9faff] ">
+        <div className="flex flex-col lg:flex-row lg:w-[1250px] mx-auto justify-between px-4 lg:px-20 py-10 lg:py-20">
       {/* Left Side */}
-      <div className="lg:w-[565px] lg:pt-18 lg:text-left">
+      <div
+        className="lg:w-[565px] lg:pt-18 lg:text-left"
+        data-aos="fade-right"
+      >
         <h1 className="text-4xl lg:text-5xl font-bold text-[#0F172A] leading-tight mb-6">
           Great software is <br />
           built with amazing <br />
@@ -40,8 +44,12 @@ const Hero = () => {
       </div>
 
       {/* Right Side Image */}
-      <div className="w-full lg:w-[772px] mt-10 lg:mt-0">
+      <div
+        className="w-full lg:w-[772px] mt-10 lg:mt-0"
+        data-aos="fade-left"
+      >
         <img src={HeroImage} alt="Hero" className="w-full h-auto" />
+      </div>
       </div>
     </section>
   );

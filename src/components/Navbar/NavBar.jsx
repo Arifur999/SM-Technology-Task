@@ -4,7 +4,8 @@ import name from "/Petro.png";
 
 const NavBar = () => {
   return (
-    <header className="w-full py-5 px-4 lg:px-20 flex items-center justify-between bg-[#f9faff]">
+    <header className="  bg-[#f9faff]">
+        <div className="py-5 px-4 lg:w-[1250px] mx-auto lg:px-20 flex items-center justify-between">
       {/* Logo */}
       <div className="text-2xl font-bold text-primary flex items-center gap-2">
         <img src={Logo} alt="Logo" className="h-8 w-auto" />
@@ -36,6 +37,7 @@ const NavBar = () => {
       <button className="text-sm border border-[#8D448B] text-[#8D448B] hover:bg-[#8D448B] hover:text-white transition-all duration-200 px-4 py-2 rounded-lg">
         Register Now
       </button>
+      </div>
     </header>
   );
 };

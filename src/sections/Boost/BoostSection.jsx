@@ -3,8 +3,8 @@ import boost from "/img (1).png"
 import { HiCheckCircle } from "react-icons/hi";
 const BoostSection = () => {
  return (
-    <section className="bg-white py-12 px-4 md:px-8 lg:px-0">
-      <div className="max-w-[1230px] mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
+    <section className="bg-white  px-4 md:px-8 lg:px-0">
+      <div className="max-w-[1220px]  mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
         
         {/* Left Image */}
         <div data-aos="fade-right" className="flex-shrink-0">
@@ -16,7 +16,7 @@ const BoostSection = () => {
         </div>
 
         {/* Right Content */}
-        <div data-aos="fade-left" className="text-center lg:text-left max-w-xl">
+        <div data-aos="fade-left" className="text-center lg:pr-18 lg:text-left max-w-xl">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0F172A] leading-snug mb-4">
             Boost your agencies <br />
             by choosing <span className="text-[#3B82F6]">Ninja <br /> Developers</span>
@@ -42,7 +42,7 @@ const BoostSection = () => {
           </ul>
 
           <div className="mt-6">
-            <button className="text-[#9333EA] hover:underline font-medium">
+            <button className="text-[#8D448B] cursor-pointer hover:underline font-medium">
               Learn more &rarr;
             </button>
           </div>

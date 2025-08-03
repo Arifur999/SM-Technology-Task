@@ -5,7 +5,7 @@ const BoostHeading = () => {
 
 
   return (
-    <div className="lg:w-[1230px] p-3 mx-auto flex flex-col justify-center text-center items-center" data-aos="fade-up">
+    <div className="lg:w-[1230px] p-3 mx-auto flex py-5 lg:py-12 flex-col justify-center text-center items-center" data-aos="fade-up">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0F172A] leading-snug mb-4">
        Leading companies trust us <br /> to develop software
       </h2>

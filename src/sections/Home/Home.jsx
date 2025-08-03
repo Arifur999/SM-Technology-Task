@@ -3,6 +3,7 @@ import Hero from '../Hero/Hero';
 import FeatureSection from '../FeatureSection/FeatureSection';
 import BoostSection from '../Boost/BoostSection';
 import BoostHeading from '../BoostHeading/BoostHeading';
+import Comments from '../Comments/Comments';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <FeatureSection></FeatureSection>
             <BoostSection></BoostSection>
             <BoostHeading></BoostHeading>
+            <Comments></Comments>
         </div>
     );
 };

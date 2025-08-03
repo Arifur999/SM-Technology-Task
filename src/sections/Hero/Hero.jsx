@@ -29,7 +29,7 @@ const Hero = () => {
             placeholder="Subscribe newsletter"
             className="w-full sm:w-auto flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400"
           />
-          <button className="bg-[#8D448B] text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-all duration-200">
+          <button className="bg-[#8D448B] cursor-pointer text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-all duration-200">
             Subscribe
           </button>
         </div>

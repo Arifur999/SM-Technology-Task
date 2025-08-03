@@ -7,7 +7,7 @@ const NavBar = () => {
     <header className="  bg-[#f9faff]">
         <div className="py-5 px-4 lg:w-[1250px] mx-auto lg:px-20 flex items-center justify-between">
       {/* Logo */}
-      <div className="text-2xl font-bold text-primary flex items-center gap-2">
+      <div className="text-2xl cursor-pointer font-bold text-primary flex items-center gap-2">
         <img src={Logo} alt="Logo" className="h-8 w-auto" />
         <img src={name} alt="" />
       </div>
@@ -34,7 +34,7 @@ const NavBar = () => {
       </nav>
 
       {/* Register Button */}
-      <button className="text-sm border border-[#8D448B] text-[#8D448B] hover:bg-[#8D448B] hover:text-white transition-all duration-200 px-4 py-2 rounded-lg">
+      <button className="text-sm border cursor-pointer border-[#8D448B] text-[#8D448B] hover:bg-[#8D448B] hover:text-white transition-all duration-200 px-4 py-2 rounded-lg">
         Register Now
       </button>
       </div>

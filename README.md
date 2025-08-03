@@ -1,12 +1,50 @@
-# React + Vite
+# 🛠️ Builderz Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive construction website built with React and Tailwind CSS. This site is designed to showcase construction services with a clean UI, animated elements, and mobile-friendly responsiveness.
 
-Currently, two official plugins are available:
+## 🚀 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [Visit the Site](https://builderz-web.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- ⚡ Fully Responsive Design
+- 🎨 Tailwind CSS for fast UI development
+- 🔄 AOS for scroll animations
+- 💡 Clean and Minimal UI
+- 📱 Mobile-first layout
+- ⚛️ Built with React (Vite)
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **React.js**
+- **Tailwind CSS**
+- **Vite**
+- **AOS (Animate on Scroll)**
+
+---
+
+## 🖼️ Preview
+
+![Builderz Web Preview](https://builderz-web.netlify.app/preview.png) <!-- Optional screenshot if hosted -->
+
+---
+
+## 🛠️ Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/builderz-web.git
+
+# 2. Navigate to the project directory
+cd builderz-web
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
